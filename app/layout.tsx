@@ -4,7 +4,7 @@ import { Inter } from "next/font/google"
 import { Sidebar } from "@/components/sidebar"
 import { Header } from "@/components/header"
 
-const inter = Inter({ subsets: ["arabic", "latin"] })
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: "نظام إدارة عقود الاستثمار",
