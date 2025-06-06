@@ -1,10 +1,10 @@
 import type React from "react"
 import "./globals.css"
-import { Inter } from "next/font/google"
+import { Cairo } from 'next/font/google'
 import { Sidebar } from "@/components/sidebar"
 import { Header } from "@/components/header"
 
-const inter = Inter({ subsets: ['latin'] })
+const cairo = Cairo({ subsets: ['arabic'], weight: ['400', '700'], display: 'swap' })
 
 export const metadata = {
   title: "نظام إدارة عقود الاستثمار",
